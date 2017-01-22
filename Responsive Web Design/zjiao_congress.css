@@ -1,0 +1,144 @@
+        body {
+            font-family: 'Open Sans';
+            padding-top: 50px;
+        }
+        .navbar-fixed-top {
+            border: 0;
+            background-color: #FFFFFF;
+        }
+        .navbar-center {
+            font-weight:bold;
+            font-size:17px;
+        }
+        .container-fluid{
+           -webkit-overflow-scrolling: touch;
+        }
+        .sidebar {
+            position: fixed;
+            top: 50px;
+            bottom: 0;
+            left: 0;
+            z-index: 1000;
+            display: inline-block;
+            float:left;
+            padding: 20px;
+            overflow-x: hidden;
+            overflow-y: auto; 
+            background-color: #606060;
+            border-right: 1px solid #eee;
+            font-size:15px;
+            color:#C3C3C3;
+            line-height: 300%;
+        }
+        .sideBar {
+            background-color: #606060;
+            border:none;
+        }
+        .main {
+             padding: 15px;
+             background-color: #F3F3F3;
+             padding-right: 15px;
+             padding-left: 15px;
+        }
+
+        .main .page-header {
+            margin-top: 0;
+        }
+        .select {
+            width:200px;
+        }
+
+        @media (max-width: 768px) {
+            .main {
+               padding-right: 15px;
+               padding-left: 45px; 
+            }
+            #logo {
+                height:35px;
+                width:55px;
+            }
+            .select {
+                width:100px;
+            }
+            .select selectC{
+                width:100px;
+            }
+            .sidebar {
+                padding: 20px 30px 20px 5px;
+            }
+            .sideBar {
+                 padding: 0 2px 0 3px;
+            }
+            
+        }
+        .well {
+            background-color: white;
+            border-width:medium;
+            padding:0;
+        }
+        
+        .demo_line_01 {
+            height: 1px;
+            border-top: 1px solid #ddd;
+        }
+        .demo_line_06 {
+            height: 1px;
+            border-top: 1px solid #ddd;
+            margin-bottom: 5px;
+        }
+        .tab-content {
+            padding: 15px;
+        }
+        .table-responsive {
+            border: 2px solid #ddd;
+            border-radius: 5px;
+        }
+        .viewDetails {
+            border:0;
+        }
+        
+        div.header {
+            background-color: #F3F3F3;
+            padding:10px;
+        }
+        form.select {
+            float:right;
+        }
+        scan.header {
+            font-weight:bold;
+        }
+        #detailsHeader {
+           padding:5px;
+           padding-right: 20px;
+        }
+        #thead th {
+            padding:8px;
+        }
+        .capitalize {
+           text-transform: uppercase;
+        }
+        .capitalizeFirst {
+           text-transform: capitalize;
+        }
+        .detailHeader {
+            font-size:18px;
+        }
+        .toggle {
+            border:0;
+            float:left;
+        }
+        #nav-top {
+            padding:0;
+        }
+.tag a {
+    color:black;
+}
+#imgTable {
+    text-align: center;
+}
+
+
+.other-controller {
+  padding: 5px;
+  margin: 3px;
+}
